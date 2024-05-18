@@ -1,0 +1,78 @@
+
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn-mars.vendd.com.br/p/GKfiIWH6sTJ7bYv5ala6oaw0bOQ2jCR6mAT9iOL0GiqarJSl/v-files/css/style.css">
+    <link rel="stylesheet" href="https://cdn-mars.vendd.com.br/p/GKfiIWH6sTJ7bYv5ala6oaw0bOQ2jCR6mAT9iOL0GiqarJSl/v-files/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn-mars.vendd.com.br/p/GKfiIWH6sTJ7bYv5ala6oaw0bOQ2jCR6mAT9iOL0GiqarJSl/v-files/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>StoryPix</title>
+    <script src="https://cdn-mars.vendd.com.br/p/GKfiIWH6sTJ7bYv5ala6oaw0bOQ2jCR6mAT9iOL0GiqarJSl/v-files/js/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+    $(document).ready(function() {
+      $('.nao').click(function() {
+        $('#audio')[0].play();
+        console.log('hudas')
+        setTimeout(() => {
+          window.location.href= './foto2.html'  
+        }, 1500);
+        
+      })
+
+      $('.sim').click(function() {
+        $('#audio')[0].play();
+        console.log('hudas')
+        setTimeout(() => {
+          window.location.href= './foto2.html'  
+        }, 1500);
+        
+      })
+      $('.btn-pop-out-foto').click(function() {
+        $(".pop").addClass("d-none");
+      });
+
+      $('.btn').click(function() {
+            window.location.href= "https://www.mercadoseguro.fun/Anitta"
+        })
+    })
+  </script></head>
+  
+  <body style="background-color: white;"><audio id="audio" src="media/cash.mp3"></audio>
+
+  
+    <header>
+      <img src="https://cdn-mars.vendd.com.br/p/GKfiIWH6sTJ7bYv5ala6oaw0bOQ2jCR6mAT9iOL0GiqarJSl/v-files/assets/logo.png" alt="" style="width: 150px;">
+      <span class="saldo">R$ 50,00</span>
+    </header>
+    <div class="pop">
+      <div class="pop-out-foto">
+        <h1 style="color: #FC0062;">PARABÉNS!</h1>
+        <p style="font-size: 15px;">Você recebeu o acesso gratuito ao StoryPix e ganhou <span style="color: rgb(96, 201, 96); font-weight: bold;">R$ 50,00!</span></p>
+        <p style="font-size: 15px; margin-top: 5px;">Faça 3 avaliações para aumentar seu saldo e realizar o primeiro<span style=" font-weight: 600;"> SAQUE.</span></p>
+        <a class="btn-pop-out-foto">COMEÇAR</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="title">
+        <h2>
+          Seja pago  <br>
+          pela suas  <br>
+          opiniões
+        </h2>
+        <p>Assista todos os stories e transforme opiniões em ganhos no maior lugar que une criatividade e conexão</p>
+  
+        <div class="perfil">
+          <img src="https://cdn-mars.vendd.com.br/p/GKfiIWH6sTJ7bYv5ala6oaw0bOQ2jCR6mAT9iOL0GiqarJSl/v-files/assets/anitta.png" alt="">
+        </div>
+        <p style="margin: 0 auto !important; display: flex; text-align: center; align-items: center; justify-content: center;">Annita <img src=" https://cdn-icons-png.flaticon.com/512/7641/7641727.png " style="width: 15px;" alt=""></p>
+        <button class="btn">ASSISTIR</button>
+      </div>
+    </div>
+
+
+    
+  
+  
+  <script src="https://cdn-mars.vendd.com.br/p/GKfiIWH6sTJ7bYv5ala6oaw0bOQ2jCR6mAT9iOL0GiqarJSl/v-files/js/script.js"></script>
+</body></html>
